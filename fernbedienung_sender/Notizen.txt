@@ -1,0 +1,56 @@
+RFM12		MEGA8		MEGA16
+SDI		PB3(MOSI/OC2)	PB5(MOSI)
+SDO		PB4(MISO)	PB6(MISO)
+SCK		PB5(SCK)	PB7(SCK)
+DCLK/CFIL/FFIT	PB1(OC1B)	PD7 (OC2)
+NRES		PC6(RESET)	RESET
+CLK		-		-
+NIRQ		-		-
+FSK/DATA/NFFS	+5V		+5V
+NINT/VDI	PB0(ICP)	PB2(INT2/AIN0)
+NSEL		PB2(SS/OC1B)	PB4(SS)
+
+
+Matrix
+Spalte1 PD0
+Spalte2 PD1
+Spalte3 PD2
+Zeile1 PD3
+Zeile2 PD4
+Zeile3 PD5
+Zeile4 PD6
+
+
+LCD //braucht maximal 100-120Hz zum Ansteuern
+             ---A----
+            |        |
+          F |        | B
+            |        |
+             ---G----
+            |        |
+          E |        | c
+            |        |    _
+              ---D---    | | BP
+                          -
+PB3	BP	1
+PA0	2B	10
+PA1	2A	11
+PA2	2F	12
+PA3	2G	13
+PA4	2C	9
+PA5	2D	8
+PA6	2E	7
+PA7	DP2	6
+PC7	DP1	2
+PC6	1E	3
+PC5	1D	4
+PC4	1C	5
+PC3	1G	17
+PC2	1F	16
+PC1	1A	15
+PC0	1B	14
+PB3	BP	18
+
+LED rot		PB1
+LED gruen	PB0
+
