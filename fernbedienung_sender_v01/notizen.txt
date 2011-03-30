@@ -1,0 +1,6 @@
+ MOSI | MISO | SCK | RST | VCC | GND
+
+Atmega16L 8MHz
+
+LED rot PA6
+LED grün PA7
