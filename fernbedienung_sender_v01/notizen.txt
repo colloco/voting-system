@@ -4,3 +4,12 @@ Atmega16L 8MHz
 
 LED rot PA6
 LED grün PA7
+
+Tastenmatrix
+H1 PC7
+H2 PC6
+H3 PC5
+H4 PC4
+V1 PD0
+V2 PD1
+V3 PD2

@@ -3,10 +3,15 @@
   <FILES>
     <FILE SHOWN="TRUE" NAME="notizen.txt" />
     <FILE SHOWN="TRUE" NAME="project.c" />
+    <FILE SHOWN="TRUE" NAME="led.h" />
+    <FILE SHOWN="TRUE" NAME="led.c" />
+    <FILE SHOWN="TRUE" NAME="tastenmatrix.c" />
+    <FILE SHOWN="TRUE" NAME="tastenmatrix.h" />
+    <FILE SHOWN="TRUE" NAME="makefile" />
   </FILES>
   <SETTINGS>
     <ASSEMBLER_COMMAND VALUE="avr-gcc" />
-    <BUILD_SYSTEM VALUE="BUILT_IN_BUILD" />
+    <BUILD_SYSTEM VALUE="EXECUTE_MAKE" />
     <CLOCK VALUE="8e+06" />
     <COMPILER_CALL_PROLOGUES VALUE="FALSE" />
     <COMPILER_COMMAND VALUE="avr-gcc" />
